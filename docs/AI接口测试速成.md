@@ -10,19 +10,9 @@ taxonomy:
     - AI
 ---
 
-# 你好，世界！
+# AI接口测试速成
 
-这是我通过 Git 发布的第一篇文章。
-
-文章内容支持 **Markdown** 语法：
-- 列表项 1
-- 列表项 2
-
-> 引用内容
-
-
-
-接口(API)是什么？
+# 一、接口(API)是什么？
 
 接口：全称是Application Programming Interface，中文翻译为**应用程序编程接口**。
 
