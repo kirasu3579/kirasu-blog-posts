@@ -38,4 +38,11 @@ taxonomy:
 
 3、勾选Preserve log（保留日志）
 
-14:44
+
+
+![](https://kirasu-blog-1414757829.cos.ap-guangzhou.myqcloud.com/wp-content/uploads/2026/04/20260411091924597.webp)
+
+![](https://kirasu-blog-1414757829.cos.ap-guangzhou.myqcloud.com/wp-content/uploads/1e4d3a25945e14e5e94502aa0eb65bd982ac336f7486359ec47d4621d2eebed0.jpg)
+
+![](https://kirasu-blog-1414757829.cos.ap-guangzhou.myqcloud.com/wp-content/uploads/2f486b676b5e4280b3fe85b57474062e.jpg!compress)
+
