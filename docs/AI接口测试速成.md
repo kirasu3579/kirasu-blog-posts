@@ -14,7 +14,7 @@ taxonomy:
 
 这是我通过 Git 发布的第一篇文章。
 
-![示例图片](./_images/photo.jpg)
+![示例图片](../_images/photo.jpg)
 
 文章内容支持 **Markdown** 语法：
 - 列表项 1
