@@ -154,3 +154,22 @@ Query**、**Body**、**Header**参数**
 • x-www-form-urlencoded：键值对用 & 连接，URL 编码格式，适合简单表单数据
 
 **Apifox位置**： “Body” 选项卡。
+
+### 3、Header参数：关于请求的“元数据
+
+位置： 在请求的头部，**描述请求本身的信息**。
+
+作用： 定义如何处理请求和响应，如内**容类型、认证信息**、客户端类型等。
+
+特点： 与业务数据无关，是关于**数据的数据**（元数据）。
+
+<mark>Content-Type: application/json (告诉服务器Body的格式)</mark>
+
+<mark>Authorization: Bearer xxxx (身份认证令牌)</mark>
+
+|          | Query      | Body      | Header       |
+| -------- | ---------- | --------- | ------------ |
+| 位置     | URL中      | 请求体内  | 请求头部     |
+| 常用方法 | GET        | POST, PUT | ALL          |
+| 作用     | 过滤、查询 | 提交数据  | 元数据、认证 |
+| 可见性   | 高         | 低        | 中           |
