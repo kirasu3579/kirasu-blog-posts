@@ -48,3 +48,23 @@ taxonomy:
 ### 五、面试回答要点
 
 17. 回答“什么是面向对象”时，既要讲清面向对象与面向过程的区别，也要涵盖封装、继承、多态三大特性，否则只算答对了一小半。
+
+
+
+<iframe width="560" height="315" src="https://player.bilibili.com/player.html?bvid=BV1Jp4y1t7yG&amp;page=2&amp;high_quality=1&amp;danmaku=0" title="Bilibili video player" frameborder="0" allowfullscreen=""></iframe>
+
+## 02-JDK、JRE、JVM区别和联系
+
+---
+
+1. JDK 全称是 Java Development Kit（Java 开发工具包），是提供给开发人员使用的。
+2. JRE 全称是 Java Runtime Environment（Java 运行时环境），是提供给仅需运行 Java 程序的普通用户使用的。
+3. JVM 是 Java 虚拟机，用于将 .class 文件解释成机器码，供操作系统执行。
+4. JDK 安装包中实际上已经包含了完整的 JRE。
+5. JRE 的核心包含两个目录：bin 目录（即 JVM）和 lib 目录（存放 Java 核心类库，如 rt.jar）。
+6. JDK = JRE + 开发工具（如 javac、java、jconsole、jdb 等）。
+7. 三者的包含关系为：JDK 包含 JRE，JRE 包含 JVM。
+8. Java 源文件（.java）先由 javac 编译成 .class 字节码文件，再由 JVM 解释执行。
+9. JVM 拥有 Windows、Linux 等多个操作系统版本，这是 Java 实现"一次编译，到处运行"的根本原因。
+10. "一次编译，到处运行"指的是同一份 .class 文件可以在不同操作系统的 JVM 上运行，而不是 JVM 本身可以到处运行。
+11. JVM 在解释 .class 文件时，会借助 lib 目录中的核心类库将字节码翻译成机器码，再映射并调用操作系统接口，最终让程序运行起来
