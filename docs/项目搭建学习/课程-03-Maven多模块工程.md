@@ -1,3 +1,15 @@
+---
+title: "第 3 课 Maven 多模块工程"
+date: 2026-08-11
+post_status: publish
+comment_status: open
+taxonomy:
+  category:
+    - 项目
+  post_tag:
+    - 项目搭建学习
+---
+
 # 第 3 课 Maven 多模块工程
 
 > 本课讲清这个项目的「工程骨架」：它不是一个 Spring Boot 单项目，而是一个 Maven 多模块工程。学完你能读懂任何 pom.xml——包括本项目中一个很有意思的「例外模块」。
