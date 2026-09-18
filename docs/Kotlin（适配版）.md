@@ -330,7 +330,8 @@ fun main() {
     println(len)
 }
 ```
-# Kotlin 学习顺序建议
+## Kotlin 学习顺序建议
+
 1.val/var、基础数据类型
 2.字符串模板
 3.可空类型？?. ?:（Kotlin 最重要特性，区分 Java）
@@ -357,24 +358,24 @@ Text(
         .background(Color.LightGray)   //文字背景底色
         .padding(10.dp)                //内边距
 )
-# 逐个解释
-## 1. 字体粗细 fontWeight
+## 逐个解释
+### 1. 字体粗细 fontWeight
 fontWeight = FontWeight.Bold     //粗体
 fontWeight = FontWeight.Normal   //正常（默认）
 fontWeight = FontWeight.Light    //细体
-## 2. 斜体 fontStyle
+### 2. 斜体 fontStyle
 fontStyle = FontStyle.Italic   //斜体
 fontStyle = FontStyle.Normal   //正常
-## 3. 字间距 letterSpacing 字符之间拉开距离
+### 3. 字间距 letterSpacing 字符之间拉开距离
 letterSpacing = 1.sp
-## 4. 行高 lineHeight，多行文字每行之间距离
+### 4. 行高 lineHeight，多行文字每行之间距离
 lineHeight = 28.sp
-## 5. 行数控制、文字溢出（长文本）
+### 5. 行数控制、文字溢出（长文本）
 maxLines = 1,                          //只允许1行
 overflow = TextOverflow.Ellipsis,       //超出显示 …
 // overflow = TextOverflow.Clip        //直接截断切掉
 // overflow = TextOverflow.Visible    //全部显示，溢出
-## 6. 文字对齐 textAlign
+### 6. 文字对齐 textAlign
 textAlign = TextAlign.Center     //居中
 textAlign = TextAlign.Start      //靠左(默认)
 textAlign = TextAlign.End        //靠右
@@ -385,7 +386,7 @@ Text(
     textAlign = TextAlign.Center,
     modifier = Modifier.fillMaxWidth()
 )
-## 7. 下划线、删除线 textDecoration
+### 7. 下划线、删除线 textDecoration
 textDecoration = TextDecoration.Underline      //下划线
 textDecoration = TextDecoration.LineThrough   //删除线（划掉文字）
 textDecoration = TextDecoration.None          //无装饰默认
@@ -394,7 +395,7 @@ modifier = Modifier
     .background(Color(0xFFEEEEEE)) //背景颜色
     .padding(horizontal = 15.dp, vertical = 8.dp)
     .fillMaxWidth()
-## 8. 使用现成 Material3 文字样式（推荐正式项目）
+### 8. 使用现成 Material3 文字样式（推荐正式项目）
 不用自己写一堆 fontSize、fontWeight，直接套主题样式
 Text(
     "张三今年18岁",
@@ -521,7 +522,8 @@ Card(modifier = Modifier.padding(10.dp)) {
 
 
 
-快速记忆分类
+## 快速记忆分类
+
 1.显示类：Text、Image
 2.输入交互：OutlinedTextField、Checkbox、RadioButton、Switch、Slider
 3.点击：Button、ElevatedButton、TextButton
