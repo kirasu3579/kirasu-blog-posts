@@ -1,5 +1,5 @@
 ---
-title: "novel-plus 课程大纲（30 节课）"
+title: "novel-plus 课程大纲"
 date: 2026-08-11
 post_status: publish
 comment_status: open
