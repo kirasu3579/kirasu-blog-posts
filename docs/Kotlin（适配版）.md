@@ -519,6 +519,8 @@ Card(modifier = Modifier.padding(10.dp)) {
     Text("卡片里面的文字", modifier=Modifier.padding(16.dp))
 }
 
+
+
 快速记忆分类
 1.显示类：Text、Image
 2.输入交互：OutlinedTextField、Checkbox、RadioButton、Switch、Slider
